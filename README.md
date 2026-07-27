@@ -1,7 +1,7 @@
 ````markdown
-# 🚀 Terraform AWS Web Server Infrastructure
+🚀 Terraform AWS Web Server Infrastructure
 
-## 📌 Project Overview
+📌 Project Overview
 
 This project demonstrates **Infrastructure as Code (IaC)** using **Terraform** to provision and manage AWS infrastructure.
 
@@ -17,7 +17,7 @@ The primary objective of this project is to automate the deployment of a web ser
 
 ---
 
-# 🏗️ Architecture Diagram
+🏗️ Architecture Diagram
 
 ```
                    Terraform
@@ -43,7 +43,7 @@ The primary objective of this project is to automate the deployment of a web ser
 
 ---
 
-# 📂 Project Structure
+📂 Project Structure
 
 ```
 terraform-aws-webserver/
@@ -60,7 +60,7 @@ terraform-aws-webserver/
 
 ---
 
-# ☁️ AWS Resources Created
+☁️ AWS Resources Created
 
 This project provisions the following AWS resources:
 
@@ -72,7 +72,7 @@ This project provisions the following AWS resources:
 
 ---
 
-# 🛠️ Technologies Used
+🛠️ Technologies Used
 
 - Terraform
 - AWS EC2
@@ -86,7 +86,7 @@ This project provisions the following AWS resources:
 
 ---
 
-# 📋 Prerequisites
+📋 Prerequisites
 
 Before running this project, ensure you have:
 
@@ -99,7 +99,7 @@ Before running this project, ensure you have:
 
 ---
 
-# 📄 Terraform Files
+📄 Terraform Files
 
 ## main.tf
 
@@ -112,7 +112,7 @@ Contains:
 
 ---
 
-## variables.tf
+variables.tf
 
 Declares all variables used in the project:
 
@@ -123,7 +123,7 @@ Declares all variables used in the project:
 
 ---
 
-## terraform.tfvars
+terraform.tfvars
 
 Contains the values for all Terraform variables.
 
@@ -138,7 +138,7 @@ instance_name = "Terraform-WebServer"
 
 ---
 
-## userdata.sh
+userdata.sh
 
 This script automatically executes when the EC2 instance launches.
 
@@ -152,7 +152,7 @@ It performs the following tasks:
 
 ---
 
-## outputs.tf
+outputs.tf
 
 Displays useful outputs after deployment:
 
@@ -162,7 +162,7 @@ Displays useful outputs after deployment:
 
 ---
 
-# 🚀 Terraform Workflow
+🚀 Terraform Workflow
 
 ## Step 1 - Initialize Terraform
 
@@ -174,7 +174,7 @@ Downloads required Terraform providers.
 
 ---
 
-## Step 2 - Format Terraform Code
+Step 2 - Format Terraform Code
 
 ```bash
 terraform fmt
@@ -184,7 +184,7 @@ Formats Terraform configuration files.
 
 ---
 
-## Step 3 - Validate Configuration
+Step 3 - Validate Configuration
 
 ```bash
 terraform validate
@@ -194,7 +194,7 @@ Checks Terraform configuration for syntax errors.
 
 ---
 
-## Step 4 - Preview Infrastructure
+Step 4 - Preview Infrastructure
 
 ```bash
 terraform plan
@@ -204,7 +204,7 @@ Displays the execution plan before provisioning resources.
 
 ---
 
-## Step 5 - Deploy Infrastructure
+Step 5 - Deploy Infrastructure
 
 ```bash
 terraform apply
@@ -222,7 +222,7 @@ to confirm deployment.
 
 ---
 
-## Step 6 - Verify Infrastructure
+Step 6 - Verify Infrastructure
 
 Terraform displays:
 
@@ -233,14 +233,14 @@ Terraform displays:
 Open the browser:
 
 ```
-http://<PUBLIC-IP>
+http://13.127.186.203/
 ```
 
 The custom Nginx web page should appear.
 
 ---
 
-## Step 7 - Destroy Infrastructure
+Step 7 - Destroy Infrastructure
 
 ```bash
 terraform destroy
@@ -256,7 +256,7 @@ to remove all AWS resources.
 
 ---
 
-# 🔐 Security Group Configuration
+🔐 Security Group Configuration
 
 | Port | Protocol | Purpose |
 |------|----------|----------|
@@ -265,7 +265,7 @@ to remove all AWS resources.
 
 ---
 
-# 📤 Terraform Outputs
+📤 Terraform Outputs
 
 After successful deployment, Terraform displays:
 
@@ -275,7 +275,7 @@ After successful deployment, Terraform displays:
 
 ---
 
-# 📸 Screenshots
+📸 Screenshots
 
 Store screenshots inside the `screenshots/` folder.
 
@@ -290,27 +290,10 @@ screenshots/
 ├── ec2-running.png
 ├── nginx-homepage.png
 └── terraform-destroy.png
-```
-
-You can also embed them in this README:
-
-```markdown
-## Terraform Apply
-
-![Terraform Apply](screenshots/terraform-apply.png)
-
-## EC2 Running
-
-![EC2 Running](screenshots/ec2-running.png)
-
-## Nginx Homepage
-
-![Nginx Homepage](screenshots/nginx-homepage.png)
-```
 
 ---
 
-# 🎯 Learning Outcomes
+🎯 Learning Outcomes
 
 Through this project, I learned:
 
@@ -328,7 +311,7 @@ Through this project, I learned:
 
 ---
 
-# 💡 Future Enhancements
+💡 Future Enhancements
 
 Future improvements for this project include:
 
@@ -344,7 +327,7 @@ Future improvements for this project include:
 
 ---
 
-# 👨‍💻 Author
+👨‍💻 Author
 
 **Aaron S Binu**
 
@@ -355,7 +338,7 @@ Aspiring DevOps Engineer
 
 ---
 
-# ⭐ Repository Highlights
+⭐ Repository Highlights
 
 - Infrastructure as Code using Terraform
 - AWS EC2 Provisioning
@@ -369,7 +352,7 @@ Aspiring DevOps Engineer
 
 ---
 
-## 📜 License
+📜 License
 
 This project is created for learning and portfolio purposes.
 
@@ -377,7 +360,7 @@ Feel free to fork, clone, and enhance it for your own learning.
 
 ---
 
-## 🙌 Acknowledgements
+🙌 Acknowledgements
 
 - HashiCorp Terraform
 - Amazon Web Services (AWS)
