@@ -290,7 +290,7 @@ screenshots/
 ├── ec2-running.png
 ├── nginx-homepage.png
 └── terraform-destroy.png
-
+```
 ---
 
 🎯 Learning Outcomes
