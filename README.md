@@ -351,7 +351,7 @@ Future improvements for this project include:
 Aspiring DevOps Engineer
 
 - GitHub: https://github.com/MRDOM12
-- LinkedIn: *(Add your LinkedIn profile URL here)*
+- LinkedIn: www.linkedin.com/in/aaron-s-binu
 
 ---
 
